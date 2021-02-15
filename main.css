@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.nav-menu {
+	background-color: #000000A2;
+    width: 100%;
+    padding: 15px 0px;
+	font-family: 'Montserrat', sans-serif;
+    user-select:none;
+
+	
+}
+.img-fluid{
+	pointer-events: none;
+}
+#nav-menu{
+	transition-property:background-color, padding;
+	transition-duration:0.5s;
+}
+.line-under-header{
+	width: 100%;
+	height:2px;
+	background: rgb(133,129,47);
+	background: linear-gradient(to right, blue 0%, darkviolet 100%, rgba(0,212,255,1) 100%);
+	margin-top:698px;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #7600a9;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #490069;
+}
+
+.footer{
+	margin-top:50px;
+	text-align:center;
+	width:100%;
+	min-height:10px;
+	padding: 15px 0px 15px 0px;
+
+	color:#fff;
+	background-color:#9400d3;
+	border-top: 2px solid #42005e;
+
+	font-family: 'Dosis', sans-serif;
+}

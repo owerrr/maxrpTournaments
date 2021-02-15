@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.glowna_livestream-behindLive{
+    width:100%;
+    height: 300px;
+    background-color:rgb(2,2,2,1);
+    z-index:-5;
+    position:relative;
+    top:0;
+}
+.underBehindLive{
+    position:relative;
+    top:0;
+    z-index:-5;
+}
+
+.glowna_livestream{
+    width:960px;
+    height:540px;
+    margin:auto;
+    margin-top:15px;
+    padding:5px;
+    background-color:rgb(10,10,10,1);
+    border-radius:5px;
+    position:relative;
+    top:-650px;
+}
+
+.glowna_livestream-embed{
+    width:100%;
+    height:100%;
+}
+
+.glowna_livestream-title{
+    font-size:84px;
+    color:rgb(75,75,75,1);
+    font-family: 'Bebas Neue', cursive!important;
+    letter-spacing:5.1px;
+}
