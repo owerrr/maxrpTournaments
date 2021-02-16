@@ -12,9 +12,10 @@ body{
 	width:100%;
 	height: 1000px;
 	position:absolute;
-	top:-306px;
+	top:-301px;
 	background-image: url('img/background.jpg');
 	filter:blur(5px);
+	z-index:-10;
 }
 .przycmiony-banner{
 	width:100%;
