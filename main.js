@@ -5,6 +5,6 @@ window.addEventListener('scroll', () => {
         document.getElementById("nav-menu").style.padding = "0px 0px";
     }else{
         document.getElementById("nav-menu").style.backgroundColor = "#000000A2";
-        document.getElementById("nav-menu").style.padding = "15px 0px"
+        document.getElementById("nav-menu").style.padding = "10px 0px"
     }
   }, false);

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* author: owr#6062 */
 .nav-menu {
 	background-color: #000000A2;
     width: 100%;
-    padding: 15px 0px;
+    padding: 10px 0px;
 	font-family: 'Montserrat', sans-serif;
     user-select:none;
 
@@ -24,7 +25,7 @@
 	margin-top:698px;
 }
 
-/* SCROLLBAR */
+/* SCROLLBAR ,*/
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -43,14 +44,39 @@
 
 .footer{
 	margin-top:50px;
-	text-align:center;
 	width:100%;
-	min-height:10px;
-	padding: 15px 0px 15px 0px;
+	height:125px;
+	padding: 15px 0px;
 
 	color:#fff;
-	background-color:#9400d3;
+	/*background-color:#9400d3;*/
+	background-color:rgb(2,2,2,0.5);
 	border-top: 2px solid #42005e;
 
 	font-family: 'Dosis', sans-serif;
+}
+
+.footer-container{
+	width:auto;
+	max-width:890px;
+	height:100%;
+	margin-left:25px;
+	margin:auto;
+}
+
+.footer-boxLeft{
+	float:left;
+}
+.footer-boxRight{
+	float:right;
+	margin-right:50px;
+}
+
+.footer-image{
+	width:96px;
+	float: left;
+}
+
+.footer-subtitle{
+	font-size:14px;
 }

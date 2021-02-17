@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
+/* author: owr#6062 */
 .glowna_livestream-behindLive{
     width:100%;
     height: 300px;
@@ -42,7 +42,7 @@
 
 .box_addyourteam{
     text-align:center;
-    width:400px;
+    width:350px;
     height:150px;
     padding: 25px;
     position: relative;
@@ -76,4 +76,217 @@
     color:#000000;
     background-color:#FFFFFF;
     text-decoration:none;
+}
+
+.banner-under-nav{
+	width:100%;
+	height: 1000px;
+	position:absolute;
+	top:-301px;
+	background-image: url('img/background.jpg');
+	filter:blur(5px);
+	z-index:-10;
+}
+.przycmiony-banner{
+	width:100%;
+	height: 699px;
+	background-color:#000000A2;
+	position:absolute;
+	top:0;
+}
+
+/* MAX TOURNAMENTS PROMOTE VIDEO */
+
+.max-promoteVideo{
+    position:absolute;
+    top:-381px;
+}
+
+.bg-video1{
+    position: absolute;
+    z-index: -10;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: none;
+}
+
+.bg-video1 > video{
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    width: 1920px;
+    height: auto;
+    filter:blur(5px);
+}
+
+.temp-forlive{
+    font-size:12px;
+    color:rgb(75,75,75,1);
+    text-decoration:none;
+    margin-top:50px;
+    padding:225px 0px;
+}
+
+/* RESPONSIVITY */
+
+
+@media all and (max-width:1600px){
+    .glowna_livestream{
+        width:960px;
+        height:540px;
+        margin:auto;
+        margin-top:15px;
+        padding:5px;
+        background-color:rgb(10,10,10,1);
+        border-radius:5px;
+        position:relative;
+        top:-525px;
+    }
+}
+
+@media all and (max-width:1024px){
+    .glowna_livestream{
+        width:640px;
+        height:360px;
+        margin:auto;
+        margin-top:15px;
+        padding:5px;
+        background-color:rgb(10,10,10,1);
+        border-radius:5px;
+        position:relative;
+        top:-450px;
+    }
+    .glowna_livestream-title{
+        font-size:51px;
+        color:rgb(75,75,75,1);
+        font-family: 'Bebas Neue', cursive!important;
+        letter-spacing:5.1px;
+        text-shadow: 3px 3px rgb(2,2,2,1);
+    }
+
+/*TEMP*/
+    .temp-forlive{
+        font-size:12px;
+        color:rgb(75,75,75,1);
+        text-decoration:none;
+        margin-top:45px;
+        padding:140px 0px;
+    }
+}
+
+@media all and (max-width: 650px){
+    .glowna_livestream{
+        width:480px;
+        height:270px;
+        margin:auto;
+        margin-top:15px;
+        padding:5px;
+        background-color:rgb(10,10,10,1);
+        border-radius:5px;
+        position:relative;
+        top:-400px;
+    }
+    .glowna_livestream-title{
+        font-size:34.5px;
+        color:rgb(75,75,75,1);
+        font-family: 'Bebas Neue', cursive!important;
+        letter-spacing:5.1px;
+        text-shadow: 3px 3px rgb(2,2,2,1);
+    }
+    .box_addyourteam{
+        top:-250px;
+    }
+
+    /*TEMP*/
+    .temp-forlive{
+        font-size:12px;
+        color:rgb(75,75,75,1);
+        text-decoration:none;
+        margin-top:15px;
+        padding:115px 0px;
+    }
+}
+
+@media all and (max-width: 480px){
+    .title-addyourteam{
+        width:280px;
+        font-size:24px;
+    }
+    .glowna_livestream{
+        width:360px;
+        height:200px;
+        margin:auto;
+        margin-top:15px;
+        padding:5px;
+        background-color:rgb(10,10,10,1);
+        border-radius:5px;
+        position:relative;
+        top:-350px;
+    }
+    .glowna_livestream-title{
+        font-size:22px;
+        color:rgb(75,75,75,1);
+        font-family: 'Bebas Neue', cursive!important;
+        letter-spacing:5.1px;
+        text-shadow: 3px 3px rgb(2,2,2,1);
+    }
+    .box_addyourteam{
+        top:-200px;
+    }
+
+        /*TEMP*/
+        .temp-forlive{
+            font-size:12px;
+            color:rgb(75,75,75,1);
+            text-decoration:none;
+            margin-top:5px;
+            padding:85px 0px;
+        }
+}
+@media all and (max-width: 320px){
+    .title-addyourteam{
+        width:280px;
+        font-size:24px;
+    }
+    .glowna_livestream{
+        width:280px;
+        height:150px;
+        margin:auto;
+        margin-top:15px;
+        padding:5px;
+        background-color:rgb(10,10,10,1);
+        border-radius:5px;
+        position:relative;
+        top:-350px;
+    }
+    .glowna_livestream-title{
+        font-size:24.6px;
+        color:rgb(75,75,75,1);
+        font-family: 'Bebas Neue', cursive!important;
+        letter-spacing:5.1px;
+        text-shadow: 3px 3px rgb(2,2,2,1);
+    }
+    .box_addyourteam{
+        top:-200px;
+        width:200px;
+    }
+
+        /*TEMP*/
+        .temp-forlive{
+            font-size:12px;
+            color:rgb(75,75,75,1);
+            text-decoration:none;
+            margin-top:0;
+            padding:65px 0px;
+        }
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="stylesheet" type="text/css" href="tournaments.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="/img/logo.png" type="image/gif">
+    <link rel="icon" href="img/logo.png" type="image/gif">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
@@ -25,7 +25,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="main.js" ></script>
     <!-- boostrap -->
-    <title> Strona główna | Max Tournaments </title>
+    <title> Max-Tournaments | Strona główna </title>
 </head> 
 <body>
   <div class="nav-menu fixed-top" id="nav-menu">
@@ -33,11 +33,13 @@
       <div class="row">
         <div class="col-md-12">
           <nav class="navbar navbar-dark navbar-expand-lg">
-          <a class="navbar-brand" href="/" id="logo-maxrp"><img src="img/logo-big.png" class="img-fluid" alt="logo" width="64px"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <a class="navbar-brand" href="/" id="logo-maxrp"><img src="img/logo-big.png" class="img-fluid" alt="logo" width="40px"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item"> <a class="nav-link" href="#home">STRONA GŁÓWNA<span class="sr-only">(current)</span></a> </li>
             <li class="nav-item"> <a class="nav-link" href="regulamin.html">REGULAMIN</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="img/team-ladder.png" target="_blank">DRABINKA</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="img/team-plan.png" target="_blank">TERMINARZ</a> </li>
             </ul>
             </div>
           </nav>
@@ -51,8 +53,13 @@
 	<b class="discord-button" onclick="window.open('https://discord.gg/T7HRJd5wJM','_blank')" style="font-family: 'Raleway', sans-serif;">DOŁĄCZ TERAZ</b>
 
 <!-- IMAGE BOX UNDER NAVBAR -->
-  <div class="bg-image1"></div>
-  <div class="banner-under-nav"></div>
+  <!--<div class="bg-image1"></div>-->
+  <div class="bg-video1">
+    <video autoplay muted no-controls loop class="max-promoteVideo">
+      <source src="img/maxrp-anim.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!--<div class="banner-under-nav"></div>-->
   <div class="przycmiony-banner"></div>
 
 
@@ -73,9 +80,13 @@
         <path fill="rgb(4,4,4,1)" fill-opacity="1" d="M0,128L120,133.3C240,139,480,149,720,176C960,203,1200,245,1320,266.7L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
       </svg>
 </div>
-<div class="glowna_livestream">                                                                      <!-- [..]/embed/LINK KURWA?autoplay=1[..]-->
-    <iframe class="glowna_livestream-embed" width="960" height="540" src="https://www.youtube.com/embed/RNDkK-nKU_E?autoplay=1&mute=1&loop=1" loop frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-    <div class=glowna_livestream-title>obejrzyj transmisje na żywo</div>
+<div class="glowna_livestream" style="text-align:Center;">                                                                      <!-- [..]/embed/LINK KURWA?autoplay=1[..]-->
+    
+      <!--<iframe class="glowna_livestream-embed" width="960" height="540" src="https://www.youtube.com/embed/LINK?autoplay=1&mute=1&loop=1" loop frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    --><div class="temp-forlive">Miejsce na transmisje na żywo</div>
+    <a href="https://www.youtube.com/channel/UCItfhrUKsa4UTNkdv7XUjgQ" target="_blank" style="text-decoration:none;">
+      <div class="glowna_livestream-title">obejrzyj transmisje na żywo</div>
+    </a>
 </div>
 
 <!-- ADD YOUR TEAM BUTTON -->
@@ -89,10 +100,19 @@
 <!-- FOOTER -->
 
   <div class="footer">
+    <div class="footer-container">
+      <div class="footer-boxLeft">
+        <img src="img/logo-big.png"  class="footer-image"/>
+      </div>
 
-    <br/>
-    <span>&copy; 2021 | owr#6062</span>
-  </div>
+      <div class="footer-boxRight">
+      <br/>
+        <span class="footer-subtitle">&copy; 2020-2021 | owr#6062. All rights reserved</span><br/>
+        <span class="footer-subtitle" style="float:right;">kontakt@max-tournaments.pl</span><br/>
+        <span class="footer-subtitle"><a href="regulamin.html" style="float:right;">Tournament rules</a></span><br/>
+      </div>
+    </div>
 
 </body>
 </html>
+
