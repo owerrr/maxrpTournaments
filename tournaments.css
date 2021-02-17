@@ -137,6 +137,46 @@
     padding:225px 0px;
 }
 
+/* FOOTER */
+.footer{
+	margin-top:50px;
+	width:100%;
+	height:125px;
+	padding: 15px 0px;
+
+	color:#fff;
+	/*background-color:#9400d3;*/
+	background-color:rgb(2,2,2,0.5);
+	border-top: 2px solid #42005e;
+
+	font-family: 'Dosis', sans-serif;
+}
+
+.footer-container{
+	width:auto;
+	max-width:890px;
+	height:100%;
+	margin-left:25px;
+	margin:auto;
+}
+
+.footer-boxLeft{
+	float:left;
+}
+.footer-boxRight{
+	float:right;
+	margin-right:50px;
+}
+
+.footer-image{
+	width:96px;
+	float: left;
+}
+
+.footer-subtitle{
+	font-size:14px;
+}
+
 /* RESPONSIVITY */
 
 
@@ -215,6 +255,9 @@
         margin-top:15px;
         padding:115px 0px;
     }
+	.footer-subtitle{
+		font-size:10px;
+	}
 }
 
 @media all and (max-width: 480px){
