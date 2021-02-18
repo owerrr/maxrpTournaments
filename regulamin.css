@@ -1,5 +1,6 @@
 body{
     background-color: #111!important;
+	user-select:none;
 }
 /*     padding:25px;
     padding-bottom:50px; */
@@ -38,6 +39,8 @@ body{
 
     margin-top:5px;
     padding:25px;
+	
+	user-select:text;
 
 }
 
